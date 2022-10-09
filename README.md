@@ -6,7 +6,8 @@ This application allows the user to build a profile of their work team.
 ## Usage
 Demo:
 
-![Web capture_8-10-2022_212239_](https://user-images.githubusercontent.com/110785267/194733182-3f13ef3c-f8fd-4409-8aef-ad31fba22b06.jpeg)
+![Web capture_8-10-2022_214248_](https://user-images.githubusercontent.com/110785267/194733641-7bd4544a-fb7e-4e83-8a8f-0fa7e3f81faa.jpeg)
+
 ## Installation
 N/A
 
