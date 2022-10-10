@@ -37,8 +37,6 @@ function addManager() {
         .then((answer) => {
             const managerData = new Manager(answer.name, answer.id, answer.email, answer.officeNumber);
             team.push(managerData);
-            // let mngr = JSON.stringify(answer);
-
 
             addExtra();
         });
@@ -123,8 +121,6 @@ function addExtra() {
             } else if (answer.type === 'Engineer') {
                 addEngineer();
             } else {
-                // const created = generateHtml();
-                // writeToFile("./dist/team.html", created)
                 writeToFile()
             }
         })
@@ -136,10 +132,6 @@ addManager();
 function writeToFile() {
     console.log(team)
     fs.writeFileSync('./dist/team.html' , generateHtml(team), 'utf-8')
-    
-
-        // (err) ? console.log("error") : console.log(team)
-    // )
 }
 
 
